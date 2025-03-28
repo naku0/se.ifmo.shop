@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: auto;
+
+    background-color: var(--white);
+
+    .text {
+        font-family: "Montserrat", sans-serif;
+        font-size: 2em;
+
+        p {
+            font-weight: 0;
+            margin: 10px 0;
+            align-items: center;
+        }
+    }
+
+    .ducky {
+        aspect-ratio: 1;
+        transform: rotate(-10deg);
+        margin: 50px;
+        filter: drop-shadow(30px 5px 4px rgba(0, 149, 223, 0.2));
+
+        img {
+            height: 350px;
+        }
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    background-color: var(--gray);
+
+    padding-bottom: 50px;
+
+    .card {
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        margin: 10px;
+        background-color: var(--gray);
+
+        border-top: 5px solid var(--light-gray);
+        border-right: 5px solid var(--light-black);
+        border-bottom: 5px solid var(--light-black);
+        border-left: 5px solid var(--light-gray);
+        border-radius: 5px;
+    }
+
+    .card:hover, .card:focus-within {
+        cursor: pointer;
+        background-color: var(--hover-gray);
+    }
+
+    .avatar {
+        img {
+            aspect-ratio: 1;
+            height: 150px;
+            border-radius: 50%;
+        }
+    }
+
+    .nickname {
+        font-size: 2.25em;
+        color: var(--dark-gray);
+        margin: 0 20px;
+        font-family: "Jersey 10", sans-serif;
+    }
+
+}
+
+@media (width < 800px) {
+    main{
+        .text {
+            font-size: 1em;
+            margin: 30px;
+        }
+        .ducky{
+            margin: 10px;
+            filter: drop-shadow(20px 5px 4px rgba(0, 149, 223, 0.2));
+
+            img{
+                height: 150px;
+            }
+        }
+    }
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+
+        .card {
+            padding: 5px 10px;
+        }
+
+        .nickname {
+            font-size: 1.5em;
+        }
+        .avatar {
+            img {
+                height: 100px;
+            }
+        }
+    }
+}

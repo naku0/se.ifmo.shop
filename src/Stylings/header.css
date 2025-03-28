@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    padding: 10px;
+    place-items: center;
+    background-color: var(--gray);
+    position: sticky;
+    top:0;
+}
+
+.logo {
+    display: flex;
+    place-items: center;
+
+    img {
+        height: 50px;
+        transform: scaleX(-1);
+        aspect-ratio: 1;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+    }
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.cross {
+    display: flex;
+    place-items: center;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: var(--gray);
+    border-width: 3px;
+}
+
+.cross:hover{
+    cursor: pointer;
+    background-color: var(--hover-gray);
+}

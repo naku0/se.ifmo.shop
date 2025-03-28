@@ -1,10 +1,15 @@
-import ducky from "../images/ducky.webp"
-import "../Stylings/header.css"
+import ducky from "../../images/ducky.webp"
+import "../../Stylings/header.css"
 
 export const Header = () => {
     const close = () => {
-        window.close();
+        try {
+            window.close();
+        } catch (e){
+            window.location.href = "about:blank";
+        }
     }
+
     return (
         <header>
             <div className="logo">

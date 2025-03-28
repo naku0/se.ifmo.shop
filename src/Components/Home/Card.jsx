@@ -1,6 +1,6 @@
-export const Card = ({avatar, name}) => {
+export const Card = ({avatar, name, onClick}) => {
     return(
-        <div className="card">
+        <div className="card" onClick={onClick}>
             <div className="avatar">
                 <img src={avatar} alt ={`${name} avatar`}/>
             </div>
