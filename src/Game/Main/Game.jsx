@@ -3,10 +3,10 @@ import Phaser from 'phaser'
 import {useGameHook} from "../Hook/useGameHook";
 
 import sky from '../assets/sky.png';
-import platform from '../assets/SnusFinder/platform.png';
-import star from '../assets/star.png';
-import bomb from '../assets/SnusFinder/bomb.png';
-import dude from '../assets/SnusFinder/dude.png';
+import platform from '../assets/NeedForSnus/platform.png';
+import star from '../assets/NeedForSnus/star.png';
+import bomb from '../assets/NeedForSnus/bomb.png';
+import dude from '../assets/NeedForSnus/dude.png';
 
 const SCREEN_HEIGHT = 600;
 const SCREEN_WIDTH = 800;

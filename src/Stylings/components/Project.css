@@ -4,8 +4,8 @@
 }
 
 .project-list.has-projects {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 0;
 }
 
@@ -40,6 +40,9 @@
 
 
 @media (width < 800px) {
+    .project-list.has-projects {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .project-list .project-item {
         padding: 10px 0;

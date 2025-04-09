@@ -78,7 +78,9 @@ footer {
     }
 }
 
-.menu-home-button{
+.menu-list-directory{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 1.5em;
     display: flex;
     align-content: center;
     width: 100%;

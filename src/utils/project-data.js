@@ -46,7 +46,7 @@ export const projects = [
 
     {
         name: "side.moscow",
-        link: "side.moscow",
+        link: "https://side.moscow",
         description: "Сайт-визитка бара",
         image:'',
         commercial: true,
@@ -57,8 +57,8 @@ export const projects = [
     },
 
     {
-        name: "naku0.io.github",
-        link: "naku0.io.github",
+        name: "naku0.github.io",
+        link: "https://naku0.github.io",
         description: "CV / сайт-визитка",
         image:'',
         commercial: false,
