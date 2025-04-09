@@ -97,6 +97,6 @@ footer {
     }
 }
 
-.menu-home-button:hover{
+.menu-list-directory:hover{
     background-color: var(--hover-gray);
 }
