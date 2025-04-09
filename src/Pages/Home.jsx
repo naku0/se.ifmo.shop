@@ -1,7 +1,7 @@
-import ducky from "../images/ducky.webp"
-import "../Stylings/home.css"
+import ducky from "../images/assets/project-images/ducky.webp"
+import "../Stylings/pages/home.css"
 import {users} from "../utils/user-data";
-import {Card} from "../Components/Home/Card";
+import {Card} from "../Components/Smart/Card";
 import {useNavigate} from "react-router-dom";
 export const Home = () => {
     const goTo = useNavigate();

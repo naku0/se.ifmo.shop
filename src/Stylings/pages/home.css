@@ -21,10 +21,10 @@ main {
         aspect-ratio: 1;
         transform: rotate(-10deg);
         margin: 50px;
-        filter: drop-shadow(30px 5px 4px rgba(0, 149, 223, 0.2));
 
         img {
             height: 350px;
+            filter: drop-shadow(30px 5px 4px rgba(0, 149, 223, 0.2));
         }
     }
 }
@@ -37,7 +37,7 @@ main {
     grid-row-gap: 0;
     background-color: var(--gray);
 
-    padding-bottom: 50px;
+    padding: 30px 0 60px 0;
 
     .card {
         display: flex;

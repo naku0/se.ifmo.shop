@@ -5,7 +5,9 @@ export const Layout = ({children}) => {
     return (
         <>
             <Header/>
-            {children}
+            <div className="app">
+                {children}
+            </div>
             <Footer/>
         </>
     );

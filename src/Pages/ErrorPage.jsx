@@ -1,6 +1,6 @@
-import cross from "../images/old_cross.png"
+import cross from "../images/assets/win-stuff/old_cross.png"
 import {useState} from "react";
-import "../Stylings/errorpage.css"
+import "../Stylings/pages/errorpage.css"
 import {useNavigate} from "react-router-dom";
 
 export const ErrorPage = () => {

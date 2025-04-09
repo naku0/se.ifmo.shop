@@ -19,10 +19,14 @@ code {
     monospace;
 }
 
-html{
+html {
     height: 100svh;
     width: 100vw;
     background-color: var(--gray);
+}
+
+ul {
+    list-style-type: none;
 }
 
 :root {
@@ -30,11 +34,12 @@ html{
 
 
     --gray: #D9D9D9;
-    --hover-gray:#C1C1C1;
-    --light-gray:#F0F0F0;
+    --hover-gray: #C1C1C1;
+    --light-gray: #F0F0F0;
     --dark-gray: #282c34;
 
     --light-black: #404040;
+    --black: #000000;
 
     --dark-blue: #03045e;
 }

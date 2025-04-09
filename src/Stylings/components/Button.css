@@ -1,0 +1,47 @@
+.button, .link-button {
+    display: flex;
+    align-items: center;
+
+    background-color: var(--gray);
+    border-right: 3px solid var(--dark-gray);
+    border-bottom: 3px solid var(--dark-gray);
+    border-top: 3px solid var(--white);
+    border-left: 3px solid var(--white);
+
+    padding: 3px 5px;
+
+    img {
+        width: 30px;
+        height: auto;
+    }
+
+}
+
+.button {
+
+
+    p {
+        font-size: 1.75em;
+        padding: 0 0 0 6px;
+    }
+}
+
+.link-button {
+    text-decoration: none;
+    color: var(--black);
+
+    margin: 10px 10px 0 0;
+    p {
+        font-size: 1em;
+        padding: 0 0 0 6px;
+    }
+}
+
+.link-button:hover, .button:hover {
+    cursor: pointer;
+    background-color: var(--hover-gray);
+    border-left: 3px solid var(--dark-gray);
+    border-top: 3px solid var(--dark-gray);
+    border-bottom: 3px solid var(--white);
+    border-right: 3px solid var(--white);
+}

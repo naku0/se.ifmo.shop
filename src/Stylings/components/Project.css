@@ -1,0 +1,30 @@
+.projects {
+    background-color: var(--gray);
+}
+
+.profile-page .projects .project-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.project-list .project-item {
+    display: flex;
+    text-decoration: none;
+    color: var(--black);
+    img {
+        aspect-ratio: 1;
+        width: 90px;
+        height: auto;
+    }
+
+    .project-about {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

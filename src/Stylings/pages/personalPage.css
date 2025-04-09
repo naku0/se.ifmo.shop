@@ -1,0 +1,36 @@
+.profile-page {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-header {
+    display: flex;
+    align-content: center;
+
+    padding: 50px;
+
+    .main-info {
+        display: flex;
+        place-content: flex-end;
+        flex-direction: column;
+        padding: 40px;
+    }
+}
+
+.profile-header .avatar {
+    display: flex;
+
+    img {
+        width: 300px;
+        height: auto;
+    }
+}
+
+.social-links {
+    ul {
+        display: flex;
+    }
+
+}
+
