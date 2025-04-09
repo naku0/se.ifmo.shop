@@ -7,7 +7,6 @@
 .profile-header {
     display: flex;
     align-content: center;
-
     padding: 50px;
 
     .main-info {
@@ -34,3 +33,66 @@
 
 }
 
+.no-projects-message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    padding: 50px 0;
+
+    img {
+        width: 250px;
+        height: auto;
+    }
+
+    .no-projects-text {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (width < 800px) {
+    .profile-header {
+        padding: 10px;
+
+        .main-info {
+            padding: 10px;
+            font-size: 0.75em;
+        }
+    }
+
+    .social-links {
+        ul {
+            flex-direction: column;
+        }
+
+    }
+
+    .profile-header .avatar {
+        height: auto;
+        aspect-ratio: 1;
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    .no-projects-message {
+        flex-direction: column;
+        padding: 10px 0;
+        font-size: 0.75em;
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+
+        .no-projects-text {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+    }
+}

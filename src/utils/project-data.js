@@ -26,8 +26,9 @@ export const projects = [
                 //Ваш никнейм
                 nickname: "naku0",
                 //Ваша роль в этом проекте (необязательно, при незаполнении высветится "Участник")
-                role: "frontend, ux/ui, gamedev"
-            }]
+                role: "frontend | ux/ui design | gamedev"
+            },
+            {nickname: "vodka_kota", role: "DevOps"}]
     },
     //Пример правильного заполнения
     {
@@ -39,7 +40,46 @@ export const projects = [
         rofl: true,
         authors: [
             {nickname: "naku0", role: "frontend"},
-            {nickname: "BuRy", role: "backend"}
+            {nickname: "BuRy", role: "Backend and DevOps"}
+        ]
+    },
+
+    {
+        name: "side.moscow",
+        link: "side.moscow",
+        description: "Сайт-визитка бара",
+        image:'',
+        commercial: true,
+        rofl: false,
+        authors: [
+            {nickname: "naku0", role: "frontend | ux/ui design"}
+        ]
+    },
+
+    {
+        name: "naku0.io.github",
+        link: "naku0.io.github",
+        description: "CV / сайт-визитка",
+        image:'',
+        commercial: false,
+        rofl: true,
+        authors: [
+            {nickname: "naku0", role: "frontend | ux/ui design"}
+        ]
+    },
+
+    {
+        name: "Chatlink",
+        link: "https://github.com/RomanKrohin/chatlink/tree/development",
+        description: " Может-быть когда-нибудь каким-то чудом, но доделается",
+        image: "",
+        commercial: false,
+        rofl: true,
+        authors: [
+            {
+                nickname: "BuRy",
+                role: "Backend and Testing"
+            }
         ]
     }
 ]

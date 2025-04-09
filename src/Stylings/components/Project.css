@@ -1,30 +1,56 @@
 .projects {
     background-color: var(--gray);
+    padding-bottom: 60px;
 }
 
-.profile-page .projects .project-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-column-gap: 0;
-    grid-row-gap: 0;
+.project-list.has-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.project-list.no-projects {
+    display: block;
 }
 
 .project-list .project-item {
     display: flex;
     text-decoration: none;
     color: var(--black);
-    img {
+
+    .project-picture {
         aspect-ratio: 1;
-        width: 90px;
-        height: auto;
+        img {
+            width: 100px;
+        }
     }
 
     .project-about {
         width: 100%;
-
+        margin-left: 10px;
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        .project-contribution .helper {
+            display: flex;
+        }
+    }
+}
+
+
+@media (width < 800px) {
+
+    .project-list .project-item {
+        padding: 10px 0;
+
+        .project-picture {
+            display: flex;
+            align-items: center;
+            width: 60px;
+            img {
+                width: 60px;
+            }
+        }
     }
 }

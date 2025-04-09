@@ -10,8 +10,8 @@ export const users = [
         nickname: 'BuRy',
         avatar: bury,
         status: "spring data enjoyer, restcontroller ambassador",
-        tg: "",
-        gh: "",
+        tg: "https://t.me/BuRY2",
+        gh: "https://github.com/2BuRy1",
     },
     {
         nickname: 'kivisd3n',
