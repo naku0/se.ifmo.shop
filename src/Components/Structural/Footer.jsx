@@ -4,7 +4,8 @@ import win from "../../images/assets/win-stuff/win95.png"
 import {Button} from "../Smart/Button";
 import {useRef, useState} from "react";
 import home from "../../images/assets/win-stuff/home.png"
-import icon from "../../Game/assets/NeedForSnus/icon.png"
+import iconNFS from "../../Game/assets/NeedForSnus/icon.png"
+import iconBRD from "../../Game/assets/BlackRiverDriver/BRD.png"
 
 export const Footer = () => {
     const [visible, setVisibility] = useState(false);
@@ -21,8 +22,14 @@ export const Footer = () => {
                     </li>
                     <li>
                         <a href="/microtest" className="menu-list-directory">
-                            <img src={icon} alt="NeedForSnus game button"/>
+                            <img src={iconNFS} alt="NeedForSnus game button"/>
                             <p>Need For Snus</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/hz" className="menu-list-directory">
+                            <img src={iconBRD} alt="BRD game button"/>
+                            <p>Black River Driving</p>
                         </a>
                     </li>
                 </ul>

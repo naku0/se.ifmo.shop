@@ -48,9 +48,9 @@ footer {
     transform: translateY(100%);
     visibility: hidden;
     transition:
-            opacity 0.3s ease,
-            transform 0.3s ease,
-            visibility 0.3s ease;
+            opacity 0.3s ease-in-out,
+            transform 0.3s ease-out,
+            visibility 0.3s ease-in-out;
 }
 
 .footer-menu.true {
@@ -62,7 +62,7 @@ footer {
 
 .footer-menu.false {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(150%);
     visibility: hidden;
     margin-bottom: 0;
 }
