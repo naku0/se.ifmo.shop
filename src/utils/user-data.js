@@ -16,7 +16,7 @@ export const users = [
     {
         nickname: 'kivisd3n',
         avatar: kivi,
-        status: "dirty deeds done dirt chip",
+        status: "dirty deeds done dirt cheap",
         tg: "",
         gh: "",
     },
