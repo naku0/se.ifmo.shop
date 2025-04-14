@@ -21,7 +21,6 @@ code {
 
 html {
     height: 100svh;
-    width: 100vw;
     background-color: var(--gray);
 }
 

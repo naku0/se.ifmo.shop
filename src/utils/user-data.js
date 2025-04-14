@@ -17,15 +17,17 @@ export const users = [
         nickname: 'kivisd3n',
         avatar: kivi,
         status: "dirty deeds done dirt cheap",
-        tg: "",
-        gh: "",
+        tg: "https://t.me/Kivisd3n",
+        gh: "https://github.com/Kivicol",
+        sp: "https://open.spotify.com/user/31rt3hpcyzwtoknaz3lq5676klbi?si=ceeb508621ae4602",
+        kg: "https://t.me/kiviandgoose"
     },
     {
         nickname: 'HelloThere',
         avatar: korolev,
         status: "",
-        tg: "",
-        gh: "",
+        tg: "https://t.me/bbr_kurvva",
+        gh: "https://github.com/He11oThere",
     },
     {
         nickname: 'vodka_kota',
@@ -40,12 +42,13 @@ export const users = [
         status: "frontend dev | functional programming fan",
         tg: "https://t.me/sniyaq",
         gh: "https://github.com/naku0",
+        kg: "https://t.me/kiviandgoose"
     },
     {
         nickname: 'deadxraver',
         avatar: deadx,
         status: "low-lever penis dev",
-        tg: "",
-        gh: "",
+        tg: "https://t.me/deadxraver",
+        gh: "https://github.com/deadxraver",
     }
 ];

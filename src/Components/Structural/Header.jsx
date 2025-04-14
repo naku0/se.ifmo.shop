@@ -16,9 +16,12 @@ export const Header = () => {
                 <img src={ducky} alt="rubber duck logo"/>
                 <p>IFMO<br/>SHOP</p>
             </div>
+            {/*
             <button className="cross" onClick={close}>
                 <span className="material-symbols-outlined">close</span>
             </button>
+            */}
+
         </header>
     );
 }

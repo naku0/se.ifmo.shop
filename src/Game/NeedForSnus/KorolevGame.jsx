@@ -11,7 +11,7 @@ import dude from '../assets/NeedForSnus/dude.png';
 const SCREEN_HEIGHT = 600;
 const SCREEN_WIDTH = 800;
 
-export const Game = () => {
+export const KorolevGame = () => {
 
     const conf = {
         type: Phaser.AUTO,
@@ -150,7 +150,7 @@ export const Game = () => {
 
     return (
         <div className="game">
-            <div id="game-window" width={SCREEN_HEIGHT} height={SCREEN_WIDTH} className="game-window"/>
+            <div id="game-window" width={SCREEN_WIDTH} height={SCREEN_HEIGHT} className="game-window"/>
             <div className="game-ui">
 
             </div>

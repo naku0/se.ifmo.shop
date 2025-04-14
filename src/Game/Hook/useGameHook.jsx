@@ -13,6 +13,5 @@ export const useGameHook = (config) => {
             }
         };
     }, [config]);
-
     return gameRef;
 }

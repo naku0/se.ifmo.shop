@@ -18,10 +18,24 @@
     text-decoration: none;
     color: var(--black);
 
-    .project-picture {
+    .project-picture, .win-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         aspect-ratio: 1;
+        width: 100px;
+    }
+
+    .project-picture {
         img {
             width: 100px;
+        }
+    }
+
+    .win-icon{
+        img{
+            width: 50px;
+            padding-block: 25px;
         }
     }
 

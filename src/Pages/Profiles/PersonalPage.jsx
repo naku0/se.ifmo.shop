@@ -1,6 +1,7 @@
 import "../../Stylings/pages/personalPage.css"
 import tg from "../../images/assets/custom-icons/tg.png"
 import gh from "../../images/assets/custom-icons/github.png"
+import sp from "../../images/assets/custom-icons/spotify.png"
 import {Button} from "../../Components/Smart/Button";
 import {projects} from "../../utils/project-data"
 import {Project} from "../../Components/Smart/Project";
@@ -38,6 +39,11 @@ export const PersonalPage = ({user}) => {
                                 <li>
                                     <Button img={gh} text={"github"} link={user.gh}/>
                                 </li>
+                                { user.sp && (
+                                <li>
+                                    <Button img={sp} text={"spotify"} link={user.sp} />
+                                </li>
+                                )}
                             </ul>
                         </div>
                     </div>
