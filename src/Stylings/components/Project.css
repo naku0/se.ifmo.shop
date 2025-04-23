@@ -61,7 +61,7 @@
     .project-list .project-item {
         padding: 10px 0;
 
-        .project-picture {
+        .project-picture, .win-icon {
             display: flex;
             align-items: center;
             width: 60px;

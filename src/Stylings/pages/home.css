@@ -75,15 +75,15 @@ main {
 
 }
 
-@media (width < 800px) {
+@media (width < 1200px) {
     main{
         .text {
             font-size: 1em;
-            margin: 30px;
+            margin: 10px;
         }
         .ducky{
             margin: 10px;
-            filter: drop-shadow(20px 5px 4px rgba(0, 149, 223, 0.2));
+            filter: drop-shadow(20px 2px 2px rgba(0, 149, 223, 0.2));
 
             img{
                 height: 150px;
@@ -103,6 +103,23 @@ main {
         }
         .avatar {
             img {
+                height: 100px;
+            }
+        }
+    }
+}
+
+@media (width < 500px) {
+    main{
+        .text{
+            font-size: 0.75em;
+            margin: 40px 10px;
+        }
+        .ducky{
+            margin: 0;
+            filter: drop-shadow(1px 1px 1px rgba(0, 149, 223, 0.2));
+
+            img{
                 height: 100px;
             }
         }

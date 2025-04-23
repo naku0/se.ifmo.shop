@@ -21,6 +21,13 @@ export const Footer = () => {
                         </a>
                     </li>
 
+                    <li>
+                        <a href="/microtest" className="menu-list-directory">
+                            <img src={games} alt="My Games icon"/>
+                            <p>My Games</p>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
             <footer>

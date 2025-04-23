@@ -2,13 +2,6 @@ import ducky from "../../images/assets/project-images/ducky.webp"
 import "../../Stylings/components/header.css"
 
 export const Header = () => {
-    const close = () => {
-        try {
-            window.close();
-        } catch (e) {
-            window.location.href = "about:blank";
-        }
-    }
 
     return (
         <header>

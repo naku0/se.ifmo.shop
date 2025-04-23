@@ -17,7 +17,7 @@ function App() {
                 <Route path="/" element={<Home/>}/>
                 <Route path="microtest" element={<GamesPage/>}/>
                 <Route path="microtest/korolev" element={<KorolevGame/>}/>
-                <Route path="microtest/black-river" element={<BLDGame/>}/>
+                {/*<Route path="microtest/black-river" element={<BLDGame/>}/>*/}
                 <Route path="aboutUs" element={<AboutUsPage/>}/>
 
                 {users.map(user => (

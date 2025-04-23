@@ -25,7 +25,7 @@ export const users = [
     {
         nickname: 'HelloThere',
         avatar: korolev,
-        status: "",
+        status: "SNUS DELENDA EST",
         tg: "https://t.me/bbr_kurvva",
         gh: "https://github.com/He11oThere",
     },

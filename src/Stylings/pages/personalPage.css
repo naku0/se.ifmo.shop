@@ -71,10 +71,9 @@
 
     .profile-header .avatar {
         height: auto;
-        aspect-ratio: 1;
 
         img {
-            width: 200px;
+            width: 150px;
             height: auto;
         }
     }
